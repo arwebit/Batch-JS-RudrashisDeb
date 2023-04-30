@@ -1,0 +1,100 @@
+INTRODUCTION
+
+JavaScript was called LiveScript in earlier days, due to JAVA popularity, it changes to JavaScript, and it has nothing to do with JAVA. JavaScript runs on browser to bring dynamic effects to the web page (client side), like opening a modal in same page for brief info rather opening new page, submitting a form without reloading and so on.
+To run JavaScript, browsers have their own JavaScript engine to compile JavaScript,
+like Google Chrome uses - V8 engine, Mozilla Fire-Fox uses - Spider Monkey.
+
+** V8 engine is very popular and used in Node JS as well.
+
+JavaScript versions are called with prefix ES - Ecma Script.
+* Ecma Script (ES) has versions like: ES5->ES6->ES2016->ES2017....ES2021.
+      -> ES6 was the version had lots of changes that is why it is called modern JavaScript from ES6 onwards.
+
+BEHIND THE SCENES
+
+JavaScript is a high level language. We don't need to manage hardware resources manually, like memory management.
+JavaScript has feature to clean memory automatically. Basically it clean unused variable.
+
+Interpreted or Just-in-time compiled:
+Compilation type programming behaviour: 
+     source code --> compile at once -- > creates portable (takes time) --> then executes.
+Interpreted type programming behaviour:
+     source code --> compile line by line --> executes line by line --> very slow.
+ JIT (Just-In-Time) compilation behaviour:
+      source code --> compiled at once --> skip portable file --> executes directly --> fast enough
+
+
+Earlier JavaScript was interpreted language, which means it complies line by line into machine code 
+and then executes. Now, JavaScript is no more interpreted language, it is JIT (just-in-time) compiled language.
+ So, the entire code complied into machine code at once, then executes immediately.
+
+Paradigm: An approach and mind set of structuring code. It can be imperative and declarative.
+ Three popular paradigm are:
+•	Procedural Programming(PP)
+•	Object Oriented Programming (OOP)
+•	Functional Programming (FP)
+
+Imperative: focus on how you achieve
+Declarative: focus on what you achieve
+
+JavaScript is a multi-paradigm language.
+
+First-Class Function
+•	Functions are treated just like variable.
+•	We can assign functions to a variable just like string, number etc.
+               Ex: let elm = function() {………………………}
+•	We can pass them into other function and return them from functions
+               Ex: elm.addEventListner("click", myFunction); // passing function in another function
+JavaScript is a First-Class Function.
+
+JavaScript is a dynamically typed language, i.e., we don’t need to assign data type
+    Ex :
+        let x = 10; // at run time the variable ‘x ’will be treated as number
+       let y = “Test”; // at run time the variable ‘y’ will be treated as string
+      let z = true;  // at run time the variable ‘z’ will be treated as boolean
+
+Single Threaded and Non-Blocking Event Loop: 
+ Concurrency model: how the JavaScript engine handles multiple task happening at the same time, 
+ using single thread and event loop. 
+JavaScript works on single thread, means one task at a time.
+
+Sounds like it will block the thread for single task, but, JavaScript use Event Loop mechanism. JavaScript takes
+ big task to event loop, which runs in background, and once it is done. It puts back in main thread from event
+  loop.
+
+JavaScript compiler consists of: Heap Memory and Call Stack
+
+HEAP MEMORY: It is a place where objects and arrays are stored as an address.
+
+let e= {"key":"value"} // address : 69522656
+
+CALL STACK: 
+       A call stack is a mechanism for an interpreter (like the JavaScript interpreter in a web browser) to keep
+        track of its place in a script that calls multiple functions -  what function is currently being run 
+        and what functions are called from within that function, etc. In simple words, call stack is a place
+         where all code runs.
+	Call Stack has execution context for:
+•	first-level code (global scope)
+•	  all functions (every function has its own execution context)
+
+Execution Context (EC) has three components:
+•	Variable Environment (let, const, var, functions and arguments object)
+•	Scope Chain - how our program variables organised and can be accessed.
+•	"this" keyword - each Execution Context (EC)  get this special variable
+NOTE:
+1.	All the above 3 component is created in Execution Context (EC) in creation phase, 
+while the Execution Context (EC) is initialized.
+2.	Arrow function don't have "this" keyword and arguments objects.
+
+Scope:  
+•	Global Scope - outside of any function or block, can be accessible from everywhere
+•	Function Scope - also called local scope, accessible inside the same function.
+•	Block Scope (ES6) - everything inside the block {} declared using let, const.
+        Ex: if, for loop etc.
+
+“this” KEYWORD
+
+o	In case of global scope: this = window
+o	In case of declarative function scope: this=undefined
+o	in case of arrow function: no support, lexical calling (down to up)
+o	Better approach is regular/expression function for the use of "this"
