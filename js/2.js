@@ -55,6 +55,12 @@ console.log(a)*/
  // Truthy and Falsy value:
  // In JavaScript, except these five values : 0, '', undefined, null and NaN, all the truthy values
 
+ console.log('null:'+Boolean(null));
+ console.log('0:'+Boolean(0));
+ console.log('undefined:'+Boolean(undefined));
+ console.log('NaN:'+Boolean(NaN));
+ console.log('{}:'+Boolean(''));
+ console.log('4:'+Boolean(4));
  // Naming convention of variables:
 
 // The standard way of naming a variable is in 'camelCase'. A variable is to be named in a proper way means, 
