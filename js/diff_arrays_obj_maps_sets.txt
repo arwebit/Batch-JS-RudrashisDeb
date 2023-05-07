@@ -1,0 +1,26 @@
+Arrays :
+
+1. Used when we need to manipulate data.
+2. Used for ordered list of values (might contain duplicate)
+
+Sets:
+
+1. Used when we need to work with unique values
+2.Used when high performence isreally important
+3. Used to remove duplicates from an Arrays
+
+-------------------------------------------------------
+
+Objects :
+
+1. Used when we need to include functions
+2. Used when working with JSON data (can convert into map also)
+3. Used we need key-value pair.
+
+
+Maps :
+
+1. Better performance easy to iterate and compute size
+2. Keys have different data types
+3. Used when we simply need to map key to values.
+4. Used when we need keys, which are not strings.
