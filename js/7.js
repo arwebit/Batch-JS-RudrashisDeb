@@ -38,6 +38,28 @@ defined names as keys instead of numbers.
 
 // ---------------------------------------------------------
 
+const me = { name: "X", age: 20 };
+console.log(me);
+
+// Add property/methods
+
+// -> Dot notaion
+// me.salary = 20000;
+// console.log(me);
+
+// -> Bracket notaion
+// me["salary"] = 20000;
+// console.log(me);
+
+// Delete property/methods
+// Dot notation
+// delete me.age;
+// console.log(me);
+
+// -> Bracket notaion
+delete me["age"];
+console.log(me);
+
 // Advanced way
 // -> if methods/properties in objects don't have any name, it automatically takes the method/property
 //name as its key.
@@ -54,5 +76,5 @@ defined names as keys instead of numbers.
 
 // ->  computed property names, using -> []
 // Ex :
-const me = { name: "x", [`test-${7 - 5}`]: "Y" };
-console.log(me["test-2"]);
+// const me = { name: "x", [`test-${7 - 5}`]: "Y" };
+// console.log(me["test-2"]);
