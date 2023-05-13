@@ -9,10 +9,10 @@ const createBooking = (flightNo, passengerObj) => {
   );
 };
 
-const flno = 123;
+const flno = 123; // primitive data
 const me = { name: "X" }; // address : #56787654
 
-createBooking(flno, me);
+// createBooking(flno, me); // primitive data will take only value
 
 // console.log(flno); /// this is primitive data, so it will take value : 123
 
