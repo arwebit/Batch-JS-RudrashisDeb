@@ -1,0 +1,6 @@
+1. Fibonacci series : Upto 20th term
+ Using, functions, spread operator, rest operator
+ Find prime nos from that series
+     
+     Ex : 0,1,1,2,3,5,8,13,21,34,55, .................... upto 20th term
+     Prime : 2,3,5,13... 
