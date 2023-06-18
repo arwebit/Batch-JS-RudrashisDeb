@@ -71,7 +71,7 @@ console.log(atm.padStart(25, "*")); // it will return 25 characters, starting wi
 // less than 25
 
 // padEnd
-console.log(atm.padEnd(25, "*")); // it will return 25 characters, starting with '*', if the string length is
+console.log(atm.padEnd(25, "*")); // it will return 25 characters, ending with '*', if the string length is
 // less than 25
 
 // -------------------------------------------------------------------------------------------
