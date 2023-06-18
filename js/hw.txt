@@ -4,3 +4,13 @@
      
      Ex : 0,1,1,2,3,5,8,13,21,34,55, .................... upto 20th term
      Prime : 2,3,5,13... 
+    
+----------------------------------------------------------------------
+
+2. Transform a string to pascel case / snake case / camel case
+
+     Course_name -> Snake case
+     CourseName - Pascel case
+     courseName - Camel case
+
+    Ex : Hello Friend, How are you -> Transform this into above mentioned cases
