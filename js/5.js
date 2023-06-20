@@ -27,7 +27,7 @@ console.log(arr[1]);
 // Size/Length of array
 console.log(arr.length);
 
-// Array csn contain duplicate values
+// Array can contain duplicate values
 
 const arr1 = [2, 5, 3, 2, 4, 3, 5];
 console.log(arr1);
