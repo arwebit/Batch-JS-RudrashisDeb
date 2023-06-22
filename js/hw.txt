@@ -4,6 +4,8 @@
      
      Ex : 0,1,1,2,3,5,8,13,21,34,55, .................... upto 20th term
      Prime : 2,3,5,13... 
+
+     Done......................
     
 ----------------------------------------------------------------------
 
@@ -14,3 +16,14 @@
      courseName - Camel case
 
     Ex : Hello Friend, How are you -> Transform this into above mentioned cases
+
+    Done...................................
+
+    -------------------------------------------------------------------------
+
+3. Create a constructor function "Car" with property : name, speed
+  it would have 2 methods in prototype
+    1. accelarate() - will increase the speed by 10 km/hr
+    2. bracke() - will decrease the speed by 5 km/hr
+
+    Ex . : Maruti is going at a spped of 40 km/hr

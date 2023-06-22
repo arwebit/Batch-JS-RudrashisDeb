@@ -15,4 +15,4 @@
 
  */
 
-// Every function always returns a value, whethe we provide any value or not
+// Every function always returns a value, whether we provide any value or not
