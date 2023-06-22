@@ -1,0 +1,22 @@
+Object Oriented Programming
+
+Four fundamentals :
+
+Abstraction: 
+    Ignoring or hiding details that don't matter, allowing us to get an overview perspective
+     of the things we are implementing, instead of messing with details that don't really matters 
+     to our implementation.
+
+
+Encapsulation: 
+    Keeping private properties and methods inside the class, so they r not accessible outside of the class.
+     Some methods can be exposed as a public interface (API).
+
+Inheritance:
+    Making all properties and methods of a certain class available to a child class, formaing a hierachical,
+     relationship between classes, this allow us to reuse logic and to model real world relationships.
+
+Polymorphism:
+    A child class can overwrite a method it inherited from a parent class [it is more complicated than that, 
+    but enough for our purpose ]. It describes the concept wherein you can use different classes with the same 
+    interface. Each of these classes can provide its own implementation of the interface.
